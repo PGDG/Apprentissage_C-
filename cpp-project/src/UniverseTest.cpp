@@ -30,6 +30,7 @@ void AssertEquals(int expected, int found, string message) {
 
 
 /***** Mettre ici les tests permettant de valider ou non le fichier source ***/
+/***** Modifier uniquement le try suffira dans le plupart des cas ************/
 int main() {
     try {
         AssertEquals(7, somme(2,5), "Running somme(2, 5)...");
